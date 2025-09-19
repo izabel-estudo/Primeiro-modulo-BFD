@@ -1,0 +1,36 @@
+$cor-principal: black;
+$cor-secundaria: white;
+$modo-escuro: true;
+$cores: red,blue,yellow,purple;
+
+@each $cor in $cores {
+    .fundo-#{$cor} {
+        background-color: $cor;
+    }
+ }
+
+
+body{
+    @if ($modo-escuro) {
+        background-color: $cor-principal;
+    } @else {
+        background-color: $cor-secundaria;
+    }
+}
+
+h1 {
+    background-color: rgb(46, 4, 131);
+    color:aqua;    
+}
+
+h2{
+    background-color: green;
+    color: aquamarine;
+    text-align: center;
+}
+
+p{
+    background-color: aquamarine;
+    color: rgb(255, 192, 237);
+}
+

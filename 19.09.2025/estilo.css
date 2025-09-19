@@ -1,0 +1,37 @@
+.fundo-red {
+  background-color: red;
+}
+
+.fundo-blue {
+  background-color: blue;
+}
+
+.fundo-yellow {
+  background-color: yellow;
+}
+
+.fundo-purple {
+  background-color: purple;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  background-color: rgb(46, 4, 131);
+  color: aqua;
+}
+
+h2 {
+  background-color: green;
+  color: aquamarine;
+  text-align: center;
+}
+
+p {
+  background-color: aquamarine;
+  color: rgb(255, 192, 237);
+}
+
+/*# sourceMappingURL=estilo.css.map */
